@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="36044491e78d68d082f276a52eb967fa9471d872f09e7b09549a3e08721599b2.html">Technical Test</a></span>
+                > <span class="truncate-60"><a
+                    href="342164d62a7809209c0a99d25b9bd1edfdeed3ab8a7901bfe25944bc48d59b19.html">register on the utest page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-04-2022 23:46</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Technical Test </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I want to fill out the registration form in Utest in order to access the platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">register on the utest page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that isaias wants to fill out the registration form and access Utest<br>When enter information on the registration page<br><table class='embedded'><thead><th>strFirstName</th><th>strLastName</th><th>strEmail</th><th>strMonthOfBirth</th><th>strDayOfBirth</th><th>strYearOfBirth</th><th>strLanguages</th><th>strCity</th><th>strPostalCode</th><th>strCountry</th><th>strComputerOS</th><th>strComputerVersion</th><th>strComputerLanguage</th><th>strMobileBrand</th><th>strMobileModel</th><th>strMobileOS</th><th>strPassword</th><th>strConfirmPassword</th></thead><tbody><tr><td>&lt;strFirstName&gt;</td><td>&lt;strLastName&gt;</td><td>&lt;strEmail&gt;</td><td>&lt;strMonthOfBirth&gt;</td><td>&lt;strDayOfBirth&gt;</td><td>&lt;strYearOfBirth&gt;</td><td>&lt;strLanguages&gt;</td><td>&lt;strCity&gt;</td><td>&lt;strPostalCode&gt;</td><td>&lt;strCountry&gt;</td><td>&lt;strComputerOS&gt;</td><td>&lt;strComputerVersion&gt;</td><td>&lt;strComputerLanguage&gt;</td><td>&lt;strMobileBrand&gt;</td><td>&lt;strMobileModel&gt;</td><td>&lt;strMobileOS&gt;</td><td>&lt;strPassword&gt;</td><td>&lt;strConfirmPassword&gt;</td></tr></tbody></table><br>Then Successfully register on the platform<br><table class='embedded'><tbody><tr><td>strQuestion</td></tr><tr><td>&lt;strQuestion&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c507e2298d89e04eb8c04712d63a450a7703a7bf8f156907d7aeb2ce9e6e81dd.png" title=" Example: {strFirstName=Isaias, strLastName=Asis, strEmail=isaias123@gmail.com, strMonthOfBirth=February, strDayOfBirth=12, strYearOfBirth=1998, strLanguages=Spanish, strCity=Cartagena de Indias, strPostalCode=130011, strCountry=Colombia, strComputerOS=Windows, strComputerVersion=10, strComputerLanguage=Spanish, strMobileBrand=Apple, strMobileModel=iPhone XS MAX, strMobileOS=iOS 15.4.1, strPassword=Qwerty123$$@@, strConfirmPassword=Qwerty123$$@@, strQuestion=The last step}" width="1920"/>
+                <img src="c507e2298d89e04eb8c04712d63a450a7703a7bf8f156907d7aeb2ce9e6e81dd.png" title=" Given that isaias wants to fill out the registration form and access Utest" width="1920"/>
+                <img src="c507e2298d89e04eb8c04712d63a450a7703a7bf8f156907d7aeb2ce9e6e81dd.png" title=" Isaias open up" width="1920"/>
+                <img src="c507e2298d89e04eb8c04712d63a450a7703a7bf8f156907d7aeb2ce9e6e81dd.png" title=" Isaias opens the Utest page" width="1920"/>
+                <img src="c507e2298d89e04eb8c04712d63a450a7703a7bf8f156907d7aeb2ce9e6e81dd.png" title=" Isaias open up (completed)" width="1920"/>
+                <img src="52ee68188bb7a0c11c1d3e4234aa74d756f0917de1d6f0c1675594e8b64809d6.png" title=" Isaias join" width="1920"/>
+                <img src="52ee68188bb7a0c11c1d3e4234aa74d756f0917de1d6f0c1675594e8b64809d6.png" title=" Isaias clicks on button that shows us the form to join" width="1920"/>
+                <img src="52ee68188bb7a0c11c1d3e4234aa74d756f0917de1d6f0c1675594e8b64809d6.png" title=" Isaias join (completed)" width="1920"/>
+                <img src="52ee68188bb7a0c11c1d3e4234aa74d756f0917de1d6f0c1675594e8b64809d6.png" title=" Given that isaias wants to fill out the registration form and access Utest (completed)" width="1920"/>
+                <img src="8c517f3460ad423561a52b804226eca1093d4aef23fd4e3cb4fd12bd137d6812.png" title=" When enter information on the registration page
+| strFirstName | strLastName | strEmail | strMonthOfBirth | strDayOfBirth | strYearOfBirth | strLanguages | strCity | strPostalCode | strCountry | strComputerOS | strComputerVersion | strComputerLanguage | strMobileBrand | strMobileModel | strMobileOS | strPassword | strConfirmPassword |
+| Isaias | Asis | isaias123@gmail.com | February | 12 | 1998 | Spanish | Cartagena de Indias | 130011 | Colombia | Windows | 10 | Spanish | Apple | iPhone XS MAX | iOS 15.4.1 | Qwerty123$$@@ | Qwerty123$$@@ |" width="1920"/>
+                <img src="8c517f3460ad423561a52b804226eca1093d4aef23fd4e3cb4fd12bd137d6812.png" title=" Isaias register" width="1920"/>
+                <img src="8c517f3460ad423561a52b804226eca1093d4aef23fd4e3cb4fd12bd137d6812.png" title=" Isaias enters 'Isaias' into where do we write the first name" width="1920"/>
+                <img src="5c13924681d6a4ffc1f43d3849fab4897735d59837efd22a6a30a686053cbf5f.png" title=" Isaias enters 'Asis' into where do we write the last name" width="1920"/>
+                <img src="bbdc8b501c0865bc4608396f8fa2b01fc1e5c1befcff59fa4574b6a82836b02e.png" title=" Isaias enters 'isaias123@gmail.com' into where do we write the email" width="1920"/>
+                <img src="834ea171b04a13f5193dd636296406af44ba435461d01c58bccdd9c7186f2546.png" title=" Isaias select February on where we select the month of birth" width="1920"/>
+                <img src="a9e121807a85826d6a46ea94a3fee728972796fb74ab36754fb7127754a21309.png" title=" Isaias select 12 on where we select the day of birth" width="1920"/>
+                <img src="9d067c7a12a47cc90ac1ade24be3d56f2bb51a574c58aaae7755301fdeea53ce.png" title=" Isaias select 1998 on where we select the year of birth" width="1920"/>
+                <img src="6712af22eb700b309dfcb820c68a0180b83fffb81312c26d72d73543d69333c4.png" title=" Isaias clicks on where do we write the language" width="1920"/>
+                <img src="c46a1edbcd38abdde549d0ad0b39448f5dd2dc72b28f2351cd420e509caf0ebe.png" title=" Isaias enters 'Spanish' into where do we write the language" width="1920"/>
+                <img src="b156a33bef940fb0e723de1c7b5d5f7906872aeb599d844a4ae7db85c978df28.png" title=" Isaias types 'ENTER' in where do we write the language" width="1920"/>
+                <img src="2fae50e6d7f6ce627d7d8bbbd9e8c9d482e52bd0c26ec837a07788ece942d560.png" title=" Isaias clicks on click to go to the next location" width="1920"/>
+                <img src="c0a31ec60c529f2fee44181105b0d3224666e3d37a83fbb5f15e6d30e1e55fb8.png" title=" Isaias enters 'Cartagena de Indias' into where we select the city" width="1920"/>
+                <img src="a93938e6eed6e00c6dc4b0a2efdbf4acaa2ee22eff82901833553fc3ac2073d3.png" title=" Isaias enters '130011' into where we select the postal code" width="1920"/>
+                <img src="4711c5e758f3e4991d5cd8bf8c7b001a519e38e4dd0e697d23d4a2cb0b998c62.png" title=" Isaias clicks on where we select the country" width="1920"/>
+                <img src="aed1e0a5ec3ab907365ef2f18fe99e7bd36bca680485c666cb0c9623857b0cd5.png" title=" Isaias enters 'Colombia' into where we write the country" width="1920"/>
+                <img src="1344f50a0da00e581cebf4f32dc6458dca6fca130e280b35edf344f633138656.png" title=" Isaias types 'ENTER' in where we write the country" width="1920"/>
+                <img src="43164231669adb8af52df6257122e7a3ef378e70dc1f2209ba859cf66a613351.png" title=" Isaias clicks on click to go to the next devices" width="1920"/>
+                <img src="043dac623363b7e91196f3985e56a33d2cb709ecf0fbb5378b9a161b499c50c4.png" title=" Isaias clicks on where we select the mobile brand" width="1920"/>
+                <img src="e016ec6533d27a92c86ff6b120c3d13b19b6a441dbcf55e9e0ab58b70bc4d948.png" title=" Isaias enters 'Apple' into where we write the mobile brand" width="1920"/>
+                <img src="e7e96185e5a566fab609885719ac3c7620fd6c8bc4e3bca26efb24e5abde1122.png" title=" Isaias types 'ENTER' in where we write the mobile brand" width="1920"/>
+                <img src="2181c48d2a466ff3b554f86dc4042f30a86c35d96b6b6bdf76e8b657feefe5f4.png" title=" Isaias clicks on where we select the mobile model" width="1920"/>
+                <img src="c2ff6abe02e1b1c4ead57589b02429984ecef4a884efd9c25013ff84a786a500.png" title=" Isaias enters 'iPhone XS MAX' into where we write the mobile model" width="1920"/>
+                <img src="7e6a70cd0ceba3a7cd57f5b231b0ea083a00c5045b09829d902b06411e99ffea.png" title=" Isaias types 'ENTER' in where we write the mobile model" width="1920"/>
+                <img src="40ec470ab14d84518d15f6b811c7162c8b68acc54a0c210ff67fa5748de36ac6.png" title=" Isaias clicks on where we select the mobile OS" width="1920"/>
+                <img src="93e8426c217dff86de419159f0be9bb3120f9eebc57046558cb142df7942a7da.png" title=" Isaias enters 'iOS 15.4.1' into where we write the mobile OS" width="1920"/>
+                <img src="17b9e98a9981867255d8ea0a87b2488d6e03dce534050606580b19ed1e720c90.png" title=" Isaias types 'ENTER' in where we write the mobile OS" width="1920"/>
+                <img src="1c2e86f786458ba655ba310e49f7297b3f0253bde253feed7720677927cca033.png" title=" Isaias clicks on click to go to the last step" width="1920"/>
+                <img src="6219736c30cd2cbc2f71f947ec494c6872f3fe82ddc219c2b554f00146a6617d.png" title=" Isaias enters 'Qwerty123$$@@' into where do we write the password" width="1920"/>
+                <img src="7c4455418c86b1d9cff31468e302666e442fa072758c7076f14c6a72af249d69.png" title=" Isaias enters 'Qwerty123$$@@' into where do we write the confirm password" width="1920"/>
+                <img src="ee2648c09995926f5975b063a966e0cdc67bb67e50fc4a3b281df79938b4a79a.png" title=" Isaias clicks on click to accept terms" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" Isaias clicks on click to accept privacy policy" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" Isaias register (completed)" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" When enter information on the registration page
+| strFirstName | strLastName | strEmail | strMonthOfBirth | strDayOfBirth | strYearOfBirth | strLanguages | strCity | strPostalCode | strCountry | strComputerOS | strComputerVersion | strComputerLanguage | strMobileBrand | strMobileModel | strMobileOS | strPassword | strConfirmPassword |
+| Isaias | Asis | isaias123@gmail.com | February | 12 | 1998 | Spanish | Cartagena de Indias | 130011 | Colombia | Windows | 10 | Spanish | Apple | iPhone XS MAX | iOS 15.4.1 | Qwerty123$$@@ | Qwerty123$$@@ | (completed)" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" Then Successfully register on the platform
+| strQuestion |
+| The last step |" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" Then answer" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" Then Successfully register on the platform
+| strQuestion |
+| The last step | (completed)" width="1920"/>
+                <img src="c50d8c5903760f2da706bbac9098dd66873ee3a3a37c6f0199556eb871b750cc.png" title=" Example: {strFirstName=Isaias, strLastName=Asis, strEmail=isaias123@gmail.com, strMonthOfBirth=February, strDayOfBirth=12, strYearOfBirth=1998, strLanguages=Spanish, strCity=Cartagena de Indias, strPostalCode=130011, strCountry=Colombia, strComputerOS=Windows, strComputerVersion=10, strComputerLanguage=Spanish, strMobileBrand=Apple, strMobileModel=iPhone XS MAX, strMobileOS=iOS 15.4.1, strPassword=Qwerty123$$@@, strConfirmPassword=Qwerty123$$@@, strQuestion=The last step} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
